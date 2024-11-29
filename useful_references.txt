@@ -1,3 +1,10 @@
 random - Module for generating random numbers and selecting random elements
 Example:
        number = random.randint(1,100)
+
+
+Comparisons - Operations for comparing values
+Eample:
+       x < y
+
+
