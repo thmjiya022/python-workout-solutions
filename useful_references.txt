@@ -17,3 +17,9 @@ for loops - Iterates over the elements of an iiterable
 Example:
        for i in range(10):
            print(i*i)
+
+
+enumerate - Helps us to number elements of iterables
+Example:
+       for index, item in enumerate('abc')
+           print(f'{index}: {item}')
