@@ -4,7 +4,16 @@ Example:
 
 
 Comparisons - Operations for comparing values
-Eample:
+Example:
        x < y
 
 
+f-strings - Strings into which expressions can be interpolated
+Example:
+       f'It is currently{datetime.datetime.now()}'
+
+
+for loops - Iterates over the elements of an iiterable
+Example:
+       for i in range(10):
+           print(i*i)
