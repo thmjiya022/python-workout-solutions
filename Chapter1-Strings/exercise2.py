@@ -10,3 +10,10 @@ For this exercise:
     - mysum(10, 20, 30, 40, 50) -> 150
     - mysum() -> 0
 '''
+
+def mysum(*numbers):
+    output = 0
+    for number in numbers:
+        output += number
+    return output
+
